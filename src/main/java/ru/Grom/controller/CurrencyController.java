@@ -1,12 +1,13 @@
-package ru.Grom.currencytracking.controller;
+package ru.Grom.controller;
 
-import ru.Grom.currencytracking.model.Currency;
-import ru.Grom.currencytracking.model.CurrencyRequest;
+
+import ru.Grom.model.Currency;
+import ru.Grom.model.CurrencyRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
-import java.util.ArrayList;
+        import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.UUID;
