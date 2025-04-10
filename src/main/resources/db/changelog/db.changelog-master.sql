@@ -1,5 +1,4 @@
 -- liquibase formatted sql
-
 -- changeset author:1
 CREATE TABLE currencies (
     id UUID PRIMARY KEY,
